@@ -1,0 +1,24 @@
+<aura:component >
+    <aura:attribute name="topArea" type="Aura.Component[]"/>
+    <aura:attribute name="leftArea" type="Aura.Component[]"/>
+    <aura:attribute name="rightArea" type="Aura.Component[]"/>
+    <aura:attribute name="bottomArea" type="Aura.Component[]"/>
+    
+    <div class="topArea">
+		{!v.topArea}    
+    </div>
+    <div class="middleArea">
+        <div class="leftArea">
+	    	{!v.leftArea}   
+        </div>
+        <div class="rightArea">
+     		{!v.rightArea}   
+        </div>
+    </div>
+    <div class="bottomArea">
+		{!v.bottomArea}
+    </div>
+    <div>
+    	I'am the body!: {!v.body}
+    </div>
+</aura:component>

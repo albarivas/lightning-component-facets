@@ -1,0 +1,24 @@
+<aura:component implements="force:appHostable">
+    <c:MySubcomponent >
+    	<aura:set attribute="topArea">
+        	<h1>I'm a Super Component</h1>
+            <p>I like very much communicating with other components</p>
+        </aura:set>
+        <aura:set attribute="leftArea">
+            <ul>
+            	<li>I can be embedded in a standalone app</li>
+                <li>I can be used in SF1 navigation menu</li>
+                <li>I can be used in Lightning App Builder</li>
+            </ul>
+        </aura:set>
+        <aura:set attribute="rightArea">
+            <p>My implementation details can be encapsulated when sharing myself to other people!</p>
+        </aura:set>
+        <aura:set attribute="bottomArea">
+            <c:MyBottomAreaComponent />
+        </aura:set>
+        <aura:set attribute="body">
+	        <h3>I haven't been set in any attribute. Where should I go?</h3>
+        </aura:set>
+    </c:MySubcomponent>
+</aura:component>

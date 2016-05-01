@@ -1,0 +1,45 @@
+.THIS h1
+{
+    font-weight: bold;
+}
+
+.THIS p
+{
+    font-style: italic;
+}
+
+.THIS.topArea
+{
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+
+.THIS.middleArea
+{
+    display: inline-block;
+    width: 100%;
+}
+
+.THIS .leftArea
+{
+    color: green;
+    font-size: 10px;
+    width: 50%;
+    float: left;
+}
+
+.THIS .rightArea
+{
+    color: blue;
+    font-size: 10px;
+    width: 50%;
+    float: right;
+}
+
+.THIS.bottomArea
+{
+    color: gray;
+    font-size: 14px;
+    text-align: right;
+}
